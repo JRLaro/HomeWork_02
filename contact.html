@@ -1,35 +1,181 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Contact Page</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- This is the Navigational Section. -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="text-light">J.Laro</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- Unordered listed items -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="AboutMe.html">About Me</a>
-            </li>
-          </ul>
+            <ul class="navbar-nav text-dark">
+                <li class="nav-item active">
+                    <a class="nav-link text-light btn-outline-light" type="button" class="btn-light" href="index.html">
+                        Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item tex">
+                    <a class="nav-link text-light btn-outline-light" type="button" class="btn-light"
+                        href="AboutMe.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light btn-outline-light" type="button" class="btn-light"
+                        href="portfolio.html">Portfolio</a>
+                </li>
+            </ul>
+
         </div>
-      </nav>
-      <h1> Contact</h1>
-   
-  </body>
+    </nav>
+
+
+
+
+
+    <div class="container mt-5 ml-4">
+
+
+        <section class="contact-section my-5">
+
+            <!-- Form with header -->
+            <div class="card">
+
+                <!-- Grid row -->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-lg-8">
+
+                        <div class="card-body form">
+
+                            <!-- Header -->
+                            <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>Contact</h3>
+
+                            <!-- Grid row -->
+                            <div class="row">
+
+                                <!-- Grid column -->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="form-contact-name" class="form-control">
+                                        <label for="form-contact-name" class="">First Name</label>
+                                    </div>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="form-contact-email" class="form-control">
+                                        <label for="form-contact-email" class="">Last Name</label>
+                                    </div>
+                                </div>
+                                <!-- Grid column -->
+
+                            </div>
+                            <!-- Grid row -->
+
+                            <!-- Grid row -->
+                            <div class="row">
+
+                                <!-- Grid column -->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="form-contact-phone" class="form-control">
+                                        <label for="form-contact-phone" class="">Phone</label>
+                                    </div>
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="form-contact-company" class="form-control">
+                                        <label for="form-contact-company" class="">Email</label>
+                                    </div>
+                                </div>
+                                <!-- Grid column -->
+
+                            </div>
+                            <!-- Grid row -->
+
+                            <!-- Grid row -->
+                            <div class="row">
+
+                                <!-- Grid column -->
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <textarea id="form-contact-message" class="form-control md-textarea"
+                                            rows="3"></textarea>
+                                        <label for="form-contact-message">Your message</label>
+                                        <a class="btn-floating btn-lg blue">
+                                            <i class="far fa-paper-plane"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Grid column -->
+
+                            </div>
+                            <!-- Grid row -->
+
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+
+
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="fixed-bottom">
+        <div class="container-fluid bg-dark">
+            <div class="row bg-secondary p-2">
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-light text-center p-5">© Copyright</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
