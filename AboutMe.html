@@ -13,9 +13,12 @@
 </head>
 
 <body>
-    <!-- This is a Navigational Bar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark">
-        <h1 class="text-white">J.Laro</h1>
+
+    <!-- <div class="navbar mb-5"> -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+        <a class="navbar-brand" href="#">J.Laro</a>
+        <!-- <h1 class="text-light">J.Laro</h1> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -25,71 +28,84 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link text-light btn-outline-light" type="button" class="btn-light"
-                        href="index.html">Home</a>
-                    <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-light btn btn-outline-light" type="button" class="btn-light"
+                        href="index.html"> Home <span class="sr-only">(current)</span></a>
                 </li>
+
                 <li class="nav-item tex">
-                    <a class="nav-link text-light btn-outline-light" type="button" class="btn-light"
+                    <a class="nav-link text-light btn btn-outline-light" type="button" class="btn-light"
                         href="portfolio.html">Portfolio</a>
                 </li>
+
                 <li class="nav-item">
-                    <a class="nav-link text-light btn-outline-light" type="button" class="btn-light"
+                    <a class="nav-link text-light btn btn-outline-light" type="button" class="btn-light"
                         href="contact.html">Contact Me</a>
                 </li>
             </ul>
 
         </div>
     </nav>
+    <!-- </div> -->
+
 
     <!-- This is the About Me Section -->
-    <div class="container bg-light mt-5 ml-4 w-50">
+    <div class="container bg-light ml-4 mt-5 w-75">
 
-
-        <h1>About Me</h1>
+        <div class="row ml-2">
+            <h1>About Me</h1>
+        </div>
 
         <hr>
-        <div class="container">
-            <article class="row single-post mt-5 no-gutters">
-                <div class="col-md-12">
-                    <div class="image-wrapper float-left pr-3">
-                        <img src="data:image/png;base64,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"
-                            class="img-circle">
-                    </div>
-                    <div class="single-post-content-wrapper p-3">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quam nam omnis explicabo
-                        asperiores accusamus facilis, optio cupiditate eos, voluptatum voluptas necessitatibus neque
-                        placeat pariatur? Optio totam exercitationem, id sint fugit corporis a. Libero, fugiat earum.
-                        Culpa accusantium deserunt illo nisi ducimus, animi consequuntur perspiciatis totam ut quisquam,
-                        blanditiis reiciendis voluptatibus doloremque? Molestias mollitia quam voluptates sed obcaecati
-                        fuga velit, quo voluptas praesentium repellendus ea ut, beatae iure excepturi culpa nulla quis?
-                        Impedit necessitatibus consequatur unde eius facere, libero blanditiis ratione repudiandae! Unde
-                        quae aliquid earum aliquam nam. Dignissimos ad obcaecati unde et quis quo quia? Harum cumque rem
-                        nihil dus ea ut, beatae iure excepturi culpa nulla quis? Impedit necessitatibus consequatur unde
-                        eius facere, libero blanditiis ratione repudiandae! Unde quae aliquid earum aliquam nam.
-                        Dignissimos ad obcaecati unde et quis quo quia? Harum cumque rem nihil!
-                        <br><br>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus
-                        reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis
-                        debitis quam ab nemo necessitatibus.
-                    </div>
+
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="row single-post absolute float-left mt-5 mb-5 mr-3 no-gutters">
+                    <img src="https://avatars3.githubusercontent.com/u/74631465?s=460&u=e16e706fa3ee99ae74ddc3cbe2846d74ff3798bf&v=4"
+                        alt="a Picture of a good looking guy. Jose Laro" width="250">
                 </div>
-            </article>
-        </div>
-    </div>
+                <div>
+                    <p> Lorem ipsum dolor sit amet, consectetur     adipisicing elit. Similique consequuntur maiores suscipit
+                        animi dolore, eligendi debitis modi officiis odit, sint perspiciatis, sunt impedit odio harum
+                        autem. Nostrum est maiores officiis rem laudantium illum quasi quia, neque, ad, ducimus quis
+                        deserunt! Placeat maiores reiciendis ea similique ab! Aut nisi quae mollitia numquam veniam odit
+                        itaque optio! Nulla est molestias beatae cum eos eaque a molestiae, fugiat necessitatibus quos
+                        iste laudantium itaque rem doloribus nemo dolorem at hic blanditiis culpa dolore totam!
+                        Asperiores, culpa ipsa officia eaque voluptatem facere repellat atque aut iure laborum ratione
+                        dignissimos possimus distinctio numquam nihil recusandae illo illum quisquam libero. A, quae
+                        inventore iusto fuga corporis nemo mollitia eius dolores labore numquam voluptatibus reiciendis,
+                        corrupti tempora itaque.</p>
 
-    <div class="container bg-dark">
-        div=<div class="row">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi illo id accusamus veritatis eum dolorem illum expedita at, quam atque autem eos ullam ratione. Harum, optio? Vero eligendi officia accusantium, temporibus facilis repellat sed eaque cum deserunt veritatis, placeat magni. Perspiciatis corporis officia ab vero aliquam quidem vitae deleniti in dolor soluta! Debitis nihil consequatur ratione eum perferendis vel molestias sequi cumque recusandae libero architecto amet velit incidunt quis sit adipisci, laborum hic consectetur soluta ex numquam repudiandae sapiente? Qui laudantium, sed cupiditate adipisci nulla vel sit repellat eum iste ad, earum asperiores at sapiente labore minima ipsam, fugit perspiciatis!</p>
-            <div class=col-md-5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tenetur sit, explicabo temporibus cumque laborum dicta nesciunt odio veritatis totam distinctio doloribus neque ipsa alias ipsum iusto assumenda deleniti cum eaque maiores in voluptatem. Hic aut optio distinctio quam culpa, error ipsam rerum ratione tenetur voluptatibus quaerat voluptas, voluptate dolores quia. Perspiciatis corporis repellat aspernatur in voluptatum vitae sequi, nam quam aut reprehenderit atque itaque dolorum. Veniam quos voluptatibus praesentium minus enim libero maiores omnis hic, facere nobis officiis ipsa sunt similique explicabo laborum. Minus, numquam aliquam omnis, similique aperiam voluptates sed officiis nihil debitis harum incidunt? Ad, repudiandae error!</p>
-        
+                    <br>
+
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio qui reiciendis ea omnis laudantium.
+                        Debitis velit odio quibusdam quasi qui, numquam cum ipsam saepe vel nisi dolores rerum ex amet
+                        consequuntur recusandae maxime atque quaerat repellat esse praesentium voluptas omnis quas
+                        error! Odio vel deserunt porro laboriosam sunt, deleniti praesentium!</p>
+
+                </div>
+
+
             </div>
+
         </div>
-       
+
+
+
+
 
 
     </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+
 
 
 
@@ -101,8 +117,9 @@
 
 
     <!-- Footer -->
-    <footer class="fixed-bottom">
-        <div class="container-fluid bg-dark">
+    <footer id= "footer"></footer>
+    <!-- <footer class="container-fluid bg-dark mt-5">
+        
             <div class="row bg-secondary p-2">
             </div>
             <div class="row">
@@ -110,8 +127,11 @@
                     <p class="text-light text-center p-5">© Copyright</p>
                 </div>
             </div>
-        </div>
-    </footer>
+        
+    </footer> -->
+
+
+
     <!-- Footer -->
 
 
