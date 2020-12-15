@@ -34,7 +34,7 @@ About Me - Here you can see a short synopsis.
 
 
 Portfolio - Here you can see some of the projects that I worked on. 
-
+![Screen Shot 2020-12-15 at 6 57 33 PM](https://user-images.githubusercontent.com/74631465/102286992-71b5e880-3f07-11eb-8634-01390ed9a07f.png)
 
 Contact Me - Here you can submit your information followed by a brief message. 
 ![Screen Shot 2020-12-15 at 6 53 33 PM](https://user-images.githubusercontent.com/74631465/102286704-d886d200-3f06-11eb-98bb-ea60b7ed9874.png)
