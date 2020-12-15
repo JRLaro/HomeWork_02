@@ -10,9 +10,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="d-flex flex-column h-100">
 
     <!-- <div class="navbar mb-5"> -->
 
@@ -49,98 +50,44 @@
 
 
     <!-- This is the About Me Section -->
-    <div class="container bg-light ml-4 mt-5 w-75">
 
-        <div class="row ml-2">
-            <h1>About Me</h1>
+
+    <section class="card">
+        <header class="container">
+            <div class="row">
+                <h1>About Me</h1>
+            </div>
         </div>
 
         <hr>
 
-        <div class="row">
-
-            <div class="col-md-12">
-                <div class="row single-post absolute float-left mt-5 mb-5 mr-3 no-gutters">
-                    <img src="https://avatars3.githubusercontent.com/u/74631465?s=460&u=e16e706fa3ee99ae74ddc3cbe2846d74ff3798bf&v=4"
-                        alt="a Picture of a good looking guy. Jose Laro" width="250">
-                </div>
-                <div>
-                    <p> Lorem ipsum dolor sit amet, consectetur     adipisicing elit. Similique consequuntur maiores suscipit
-                        animi dolore, eligendi debitis modi officiis odit, sint perspiciatis, sunt impedit odio harum
-                        autem. Nostrum est maiores officiis rem laudantium illum quasi quia, neque, ad, ducimus quis
-                        deserunt! Placeat maiores reiciendis ea similique ab! Aut nisi quae mollitia numquam veniam odit
-                        itaque optio! Nulla est molestias beatae cum eos eaque a molestiae, fugiat necessitatibus quos
-                        iste laudantium itaque rem doloribus nemo dolorem at hic blanditiis culpa dolore totam!
-                        Asperiores, culpa ipsa officia eaque voluptatem facere repellat atque aut iure laborum ratione
-                        dignissimos possimus distinctio numquam nihil recusandae illo illum quisquam libero. A, quae
-                        inventore iusto fuga corporis nemo mollitia eius dolores labore numquam voluptatibus reiciendis,
-                        corrupti tempora itaque.</p>
-
-                    <br>
-
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio qui reiciendis ea omnis laudantium.
-                        Debitis velit odio quibusdam quasi qui, numquam cum ipsam saepe vel nisi dolores rerum ex amet
-                        consequuntur recusandae maxime atque quaerat repellat esse praesentium voluptas omnis quas
-                        error! Odio vel deserunt porro laboriosam sunt, deleniti praesentium!</p>
-
-                </div>
-
-
+        <div>
+            <div class="col-sm-4">
+                <img class="img-responsive float-left mr-2 mb-1" src="https://avatars3.githubusercontent.com/u/74631465?s=460&u=e16e706fa3ee99ae74ddc3cbe2846d74ff3798bf&v=4" width="125"/>
             </div>
-
+            <div class="col-sm-8">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis blanditiis labore atque, voluptates facere repellat expedita. 
+                    Eius ab saepe nostrum corrupti placeat itaque molestiae unde dolores amet! Et, quaerat autem? Lorem ipsum dolor sit amet consectetur 
+                    adipisicing elit. Enim explicabo consequatur pariatur ipsa consectetur! Ducimus aliquid sed doloribus dolorem atque, quibusdam quas 
+                    beatae a ad at cum in repellat fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quis iste numquam voluptatibus 
+                    ducimus.
+                </p>
+            </div>
         </div>
+    </section>
+</main>
 
-
-
-
-
-
+<!--footer starts here-->
+<footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+        <strong>Copyright &copy; </strong>
     </div>
+</footer>
 
-    </div>
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Footer -->
-    <footer id= "footer"></footer>
-    <!-- <footer class="container-fluid bg-dark mt-5">
-        
-            <div class="row bg-secondary p-2">
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-light text-center p-5">© Copyright</p>
-                </div>
-            </div>
-        
-    </footer> -->
-
-
-
-    <!-- Footer -->
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
-
 </html>
