@@ -1,4 +1,3 @@
-# HomeWork_02
 # Responsive Portfolio
 
 
