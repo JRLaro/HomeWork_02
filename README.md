@@ -1,4 +1,3 @@
-# HomeWork_02
 # Responsive Portfolio
 
 
@@ -16,7 +15,7 @@
 
 
 See for yourself - Check it out: 
-https://jrlaro.github.io/HomeWork_02/index.html
+https://jrlaro.github.io/Portfolio/
 
 
 ## Installation
