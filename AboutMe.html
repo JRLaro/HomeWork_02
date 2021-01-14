@@ -10,7 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Assets/style.css">
 </head>
 
 <!-- Nav-Bar-Starts -->
@@ -20,36 +20,33 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
-        <a class="navbar-brand" href="index.html">J.Laro</a>
-
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-dark" href="index.html">J.Laro</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!-- Unordered listed items -->
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link text-light btn btn-outline-light" type="button" class="btn-light"
-                        href="index.html"> Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-dark btn btn-outline-light" type="button" class="btn-light"
+                        href="./index.html"> Home <span class="sr-only">(current)</span>
+                    </a>
                 </li>
-
                 <li class="nav-item tex">
-                    <a class="nav-link text-light btn btn-outline-light" type="button" class="btn-light"
-                        href="portfolio.html">Portfolio</a>
+                    <a class="nav-link text-dark btn btn-outline-light" type="button" class="btn-light"
+                        href="./portfolio.html"> Portfolio
+                    </a>
                 </li>
-
                 <li class="nav-item">
-                    <a class="nav-link text-light btn btn-outline-light" type="button" class="btn-light"
-                        href="contact.html">Contact Me</a>
+                    <a class="nav-link text-dark btn btn-outline-light" type="button" class="btn-light"
+                        href="./contact.html">Contact Me
+                    </a>
                 </li>
             </ul>
-
         </div>
     </nav>
-
 
 
     <!-- This is the About Me Section -->
@@ -63,54 +60,36 @@
                             <h3 class="mt-4"><i class="fas fa-envelope pr-2"></i>About Me</h3>
                             <hr>
                             <div class="col-sm-4">
-                                <img class="img-responsive float-left mr-2 mb-1"
-                                    src="https://avatars3.githubusercontent.com/u/74631465?s=460&u=e16e706fa3ee99ae74ddc3cbe2846d74ff3798bf&v=4"
-                                    width="125" alt="one good looking fella" />
+                                <img id="profilePic" class="img-responsive float-left mr-2 mb-1" width="200"
+                                    height="200" src="./Images/74631465.png" alt="one good looking fella" />
                             </div>
                             <div class="col-sm-12">
                                 <div class="col">
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis blanditiis
-                                        labore atque,
-                                        voluptates facere repellat expedita.
-                                        Eius ab saepe nostrum corrupti placeat itaque molestiae unde dolores amet! Et,
-                                        quaerat autem?
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Enim explicabo consequatur pariatur ipsa consectetur! Ducimus
-                                        aliquid sed
-                                        doloribus dolorem atque, quibusdam quas
-                                        beatae a ad at cum in repellat fugiat. Lorem ipsum dolor sit amet consectetur
+                                        Hello! My name is Joseph Laro, and I am an inspiring Full-Stack Developer. I am
+                                        currently enrolled in the University of Central Florida's BootCamp program. As a
+                                        freelance graphic designer I've always had a passion for creating, constructing
+                                        and collaborating. My philosophy and perspective in life is - "Although the
+                                        destination is important, the journey needs to be an unforgettable experience."
                                     </p>
                                 </div>
-                                <div class="col">
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis blanditiis
-                                        labore atque,
-                                        voluptates facere repellat expedita.
-                                        Eius ab saepe nostrum corrupti placeat itaque molestiae unde dolores amet! Et,
-                                        quaerat autem?
-                                        Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Enim explicabo consequatur pariatur ipsa consectetur! Ducimus
-                                        aliquid sed
-                                        doloribus dolorem atque, quibusdam quas
-                                        beatae a ad at cum in repellat fugiat. Lorem ipsum dolor sit amet consectetur
-                                    </p>
-                                </div>
+
                             </div>
-                            <a href="https://github.com/JRLaro" target="_blank">
-                                <button id="gitHub" type="button" class="btn btn-dark"> GitHub</button>
-                            </a>
-                            <a href="https://www.linkedin.com/in/jose-laro-113369192/" target="_blank">
-                                <button id="gitHub" type="button" class="btn btn-info"> Linkedin</button>
-                            </a>
-                            <a href="#" target="_blank">
-                                <button id="gitHub" type="button" class="btn btn-warning"> Resume </button>
-                            </a>
-                            
                         </div>
+                        <a href="https://github.com/JRLaro" target="_blank">
+                            <button id="gitHub" type="button" class="btn btn-dark mt-3 mb-3"> GitHub</button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jose-laro-113369192/" target="_blank">
+                            <button id="gitHub" type="button" class="btn btn-info mt-3 mb-3"> Linkedin</button>
+                        </a>
+                        <a href="./Resume/j.LaroResume.pdf" target="_blank">
+                            <button id="gitHub" type="button" class="btn btn-warning mt-3 mb-3"> Resume </button>
+                        </a>
+
                     </div>
                 </div>
             </div>
+    </div>
     </div>
     </section>
     </div>
