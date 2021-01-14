@@ -65,10 +65,17 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    margin-top: 350px;
+    margin-top: 325px;
+    cursor: pointer;
   }
 
+.navbar{
+    background-color: rgb(255, 255, 255);
+}
 
+.navbar:hover{
+background-color: rgba(0, 0, 0, 0.057);
+}
 
 .navbar-brand {
     font-size: 30px;
@@ -95,4 +102,32 @@ section {
         width: 90%;
     }
     
+}
+
+.portfolio {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contact {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.contactForm {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+
 }
