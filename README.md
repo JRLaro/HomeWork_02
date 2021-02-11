@@ -26,7 +26,7 @@ Being that this is not an application but rather just a wesbite containing my pe
 
 ## Usage 
 Home Page - Here you will be presented with a warm WELCOME.
-![](https://user-images.githubusercontent.com/74631465/102282661-edf7fe00-3efe-11eb-9077-221915e2f9db.png)
+![](images/homePage.png)
 
 About Me - Here you can see a short synopsis.
 ![Screen Shot 2020-12-15 at 6 50 48 PM](https://user-images.githubusercontent.com/74631465/102286728-e3416700-3f06-11eb-9729-4fda2a9afa5a.png)
